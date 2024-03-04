@@ -1,0 +1,13 @@
+from tkinter import *
+
+tela = Tk()
+
+tela.geometry('800x600')
+tela.resizable(False,FALSE)
+texto = Label(tela,text='Texto 1')
+texto.place(x=400, y=300)
+
+
+
+
+tela.mainloop()
